@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vmin;
+    height: 100vmin;
+    border: 2px solid black;
+    padding: 3vmin;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: x-large;
+}
+
+.tela{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vmin; 
+    height: 20vmin;
+    width: 30vmin;
+    font-size: xx-large;
+    font-variant-numeric: oldstyle-nums;
+    border-radius: 45%;
+    margin-top: -10vmin;
+    box-shadow: 100vmin;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+button#menos:hover{
+    background-color: rgb(231, 0, 0);
+    color: black;
+}
+
+button#menos:active{
+    background-color: rgb(255, 0, 0);
+}
+button#menos{
+    background-color: rgb(196, 1, 1);
+    color: white;
+    height: 15vmin;
+    width: 20vmin;
+    border-radius: 20% 0% 20% 0%;
+}
+
+button#reset:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+
+button#reset:active{
+    background-color: lightblue;
+    color: black;
+}
+
+button#reset{
+    background-color: blue;
+    color: white;
+    height: 15vmin;
+    width: 20vmin;
+
+}
+
+button#mais{
+    background-color: green;
+    color: white;
+    height: 15vmin;
+    width: 20vmin;
+    border-radius: 0% 20% 0% 20%;
+}
+
+button#mais:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+button#mais:active{
+    background-color: lightseagreen;
+    color: black;
+}
